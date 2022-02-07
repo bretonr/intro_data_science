@@ -5,6 +5,10 @@
 
 <style>
 
+.container {
+    max-width:1000px !important;
+}
+
 .text_cell_render p {
 font-style: regular;
 font-family: 'Fira Sans', sans-serif;
@@ -96,6 +100,37 @@ color:#cc0000;
 border-style: solid none solid none;
 border-width: 2px;
 border-color:#cc0000;
+border-spacing: 10px;
+}
+
+div.opt_start {
+font-size: large;
+font-variant: small-caps;
+font-family: 'Titillium Web', sans-serif;
+font-weight: bold;
+/*margin-bottom: 0.1em;*/
+/*margin-top: 0.5em;*/
+margin: 10px;
+padding: 10px;
+color:#0000cc;
+border-style: solid none none none;
+border-width: 2px;
+border-color:#0000cc;
+border-spacing: 10px;
+}
+div.opt_end {
+font-size: large;
+font-variant: small-caps;
+font-family: 'Titillium Web', sans-serif;
+font-weight: bold;
+/*margin-bottom: 0.1em;*/
+/*margin-top: 0.5em;*/
+margin: 10px;
+padding: 10px;
+color:#0000cc;
+border-style: none none solid none;
+border-width: 2px;
+border-color:#0000cc;
 border-spacing: 10px;
 }
 
