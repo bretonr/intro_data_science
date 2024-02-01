@@ -3,5 +3,6 @@
 Chapter*.pdf
 nosync
 *.ipynb_checkpoints*
+*.virtual_documents*
 *.key
 common/upload.sh
